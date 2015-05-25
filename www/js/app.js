@@ -23,7 +23,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
 })
 .constant('APPID', 'localfood')
 .constant('APIKEY','d3e9fab925ff3ddda38bd39afc59b5a40cb22adbdbdaed8d713d54abb4900ad4')
-.constant('BASEURL', 'http://localfood.stamplay.com') // e.g. http://APPID.stamplay.com
+.constant('BASEURL', 'http://localfood.stamplayapp.com') // e.g. http://APPID.stamplay.com
 .config(function($stateProvider, $urlRouterProvider) {
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
